@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Roboto&display=swap');
+:root{
+    --main-color:#2874f0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color:var(--main-color);
+    height: 60px;
+}
+.container{
+    min-height: calc(100vh - 60px - 15vh);
+}
+.logo{
+    background-color: var(--main-color);
+}
+nav{
+    display: flex;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+}
+input{
+    width: 500px;
+    height: 25px;
+    font-family: 'Abyssinica SIL', serif;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    padding: 0px 12px;
+}
+#search{
+    margin: 0 5px 0 25px;
+    color: white;
+    background-color: #2874f0;
+    padding: 3px 10px 3px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search button{
+    font-family: 'Abyssinica SIL', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 68px;
+    padding: 0 20px;
+}
+ ul{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+li{
+    list-style: none;
+    padding: 0 12px;
+}
+li a:hover{
+    color: white;
+    font-weight: bolder;
+}
+.slider{
+    margin: auto;
+    width: 80vw;
+    margin: 12px auto;
+}
+footer{
+    height: 15vh;
+    background: var(--main-color);
+    color: white;
+    font-family: 'Abyssinica SIL', serif;
+font-family: 'Roboto', sans-serif;
+}
+.comp_description{
+    width: 80vw;
+    color: #2874f0;
+}
